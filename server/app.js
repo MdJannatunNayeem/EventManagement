@@ -12,13 +12,14 @@ import * as path from "node:path";
 import { fileURLToPath } from 'url';
 
 
+
 const app = express();
 
 // Global Application Middleware
 app.use(cors({
     credentials: true,
     origin: [
-        "http://localhost:3000",
+        "http://localhost:3000","https://event-management-rouge-five.vercel.app/"
 
     ],
 }));
