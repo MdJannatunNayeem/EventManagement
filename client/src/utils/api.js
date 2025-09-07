@@ -10,5 +10,5 @@ export function setAuthToken(token) {
     if (token) api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
     else delete api.defaults.headers.common['Authorization'];
 }
-pload
+
 export const IMAGE_API= "https://eventmanagement-qv0d.onrender.com/upload-file/";
