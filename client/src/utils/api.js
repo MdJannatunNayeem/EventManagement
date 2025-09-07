@@ -11,4 +11,4 @@ export function setAuthToken(token) {
     else delete api.defaults.headers.common['Authorization'];
 }
 pload
-export const IMAGE_API= "https://eventmanagement-qv0d.onrender.com/";
+export const IMAGE_API= "https://eventmanagement-qv0d.onrender.com/upload-file/";
